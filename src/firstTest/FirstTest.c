@@ -3,5 +3,6 @@
 //My first X Program
 main()
      {
-          printf("hello, world \n");
+          printf("heello, world \n");
+          
      }    

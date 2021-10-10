@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 #define MAXLINE 1000
-
+#define Hello "hello, world"
 int max;
 char line[MAXLINE];
 char longest[MAXLINE];
@@ -55,3 +55,4 @@ void copy(void)
      while((longest[i] = line[i]) != '\0')
           ++i;
 }
+

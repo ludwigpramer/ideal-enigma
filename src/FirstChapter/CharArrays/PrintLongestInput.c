@@ -24,7 +24,7 @@ int main()
 
      if(max > 0){
 
-          printf("%s\n", longest);
+          printf("The longest was: %s\n", longest);
 
      }
      return 0;

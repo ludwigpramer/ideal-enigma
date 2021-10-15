@@ -6,7 +6,8 @@ float calc(float t);
 float calculateHeight( float v0, float t);
 int main()
 {
-     float v0 = 200;
+     
+     float v0 = 27.7;
      float h, t = 0;
      while(h >= 0)
      {
@@ -14,7 +15,7 @@ int main()
           printf("Height: %4.3f Time: %4.3f, down: %4.3f\n", h, t, calc(t));
           t = t + 0.1;
      }
-     printf("The Object touched the ground at %f\n", t);
+     
 }
 float calc(float t)
 {

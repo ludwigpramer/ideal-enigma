@@ -5,11 +5,11 @@
 int comp(int number);
 int main()
 {         
-          int i = 0;
-          while(scanf("%d", &i) && i != 0)
-          {
-          comp(i) ? printf("%d is a prime number!\n", i) : printf("%d is not a prime number!\n", i);
-          }
+     int i = 0;
+     while(scanf("%d", &i) && i != 0)
+     {
+     comp(i) ? printf("%d is a prime number!\n", i) : printf("%d is not a prime number!\n", i);
+     }
 }
 
 int comp(int number)

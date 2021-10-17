@@ -1,13 +1,15 @@
 #include <iostream>
+#include <math.h>
+#include <string>
 
 
 float Q_rsqrt( float number );
 int main()
 {
-     for(int i = 0; i <= 1000000; ++i)
-     {
-         std::cout << Q_rsqrt(i) << "\n";
-     }
+     
+     std::cout << Q_rsqrt(1) << std::endl;
+	std::cout << 1/sqrt(1) << std::endl;
+
      
 }
 

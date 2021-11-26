@@ -1,0 +1,8 @@
+make --dry-run --keep-going --print-directory
+make: Entering directory `/Users/ludwigpramer/Programming/C/CCC/ideal-enigma/mylib'
+clang++ -std=c++17 -c Main.cpp
+clang++ -std=c++17 -c MyLib.cpp
+clang++ -std=c++17 -o  Main.o MyLib.o
+ 
+make: Leaving directory `/Users/ludwigpramer/Programming/C/CCC/ideal-enigma/mylib'
+ 
